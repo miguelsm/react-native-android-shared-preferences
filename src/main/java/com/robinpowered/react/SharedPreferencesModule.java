@@ -14,7 +14,7 @@ public class SharedPreferencesModule extends ReactContextBaseJavaModule {
 
   public SharedPreferencesModule(ReactApplicationContext reactApplicationContext) {
     super(reactApplicationContext);
-    preferences = reactApplicationContext.getApplicationContext().getSharedPreferences("titanium", Context.MODE_PRIVATE);
+    preferences = reactApplicationContext.getApplicationContext().getSharedPreferences("group.com.f1000.workspace", Context.MODE_PRIVATE);
   }
 
   @Override
